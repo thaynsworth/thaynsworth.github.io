@@ -1,11 +1,14 @@
 #fullname {
-	background-color: lightyellow;
+	/*background-color: lightyellow;*/
+	padding-top: 40px;
 	text-align: center;
+	border-bottom: 2px solid black;
 }
 
 #information {
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 	text-align: center;
+	padding: 20px;
 }
 
 .info-button {
@@ -18,21 +21,23 @@ a {
 
 .profile-pic {
 	height: 200px;
-	width: 200px;
+	width: 210px;
 	border-radius: 100px;
 }
 
 #about {
-	background-color: lightpink;
+	/*background-color: lightpink;*/
 	text-align: center;
+	padding-top: 100px;
 }
 
 #projects {
-	background-color: lightgreen;
+	/*background-color: lightgreen;*/
+	border-top: 2px solid black;
 	text-align: center;
 }
 
 .project-pic {
-	width: 300px;
-	height: 250px;
+	width: 100%;
+	height: 100%;
 }
