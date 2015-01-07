@@ -1,3 +1,16 @@
-.fullname {
+#fullname {
 	background-color: lightyellow;
+	text-align: center;
+}
+
+#main-content {
+	background-color: lightblue;
+}
+
+#about {
+	background-color: lightpink;
+}
+
+#projects {
+	background-color: lightgreen;
 }
