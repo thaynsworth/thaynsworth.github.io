@@ -30,6 +30,10 @@ a {
 	border-radius: 100px;
 }
 
+#about {
+	padding-top: 20px;
+}
+
 #about p {
 	/*background-color: lightpink;*/
 	text-align: center;
