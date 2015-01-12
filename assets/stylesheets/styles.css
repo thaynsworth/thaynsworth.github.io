@@ -90,7 +90,7 @@ a {
 #projectshare .text {
 	position: relative;
 	visibility: hidden;
-	bottom: 150px;
+	bottom: 170px;
 }
 
 #projectshare:hover .text {
