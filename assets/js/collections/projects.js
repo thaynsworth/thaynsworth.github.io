@@ -19,3 +19,5 @@ var apps = [
 		description: '<strong>WalkSafe</strong> provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.'
 	}
 ];
+
+var projects = new Projects(apps);

@@ -1,6 +1,6 @@
 var Portfolio = Backbone.View.extend({
 	el: '#portfolio',
-	portfolioTemplate: _.template($('#portfolio-template').html()),
+	portfolioTemplate: _.template($('#project-template').html()),
 	initialize: function() {
 		this.render();
 	},
@@ -8,7 +8,7 @@ var Portfolio = Backbone.View.extend({
 		'click #walksafe' : 'funTimez'
 	},
 	render: function() {
-		this.$el.html(this.portfolioTemplate());
+		$('#projects').html(this.portfolioTemplate());
 		return this;
 	},
 	funTimez: function() {
