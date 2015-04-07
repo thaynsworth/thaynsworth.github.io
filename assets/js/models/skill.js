@@ -1,0 +1,1 @@
+var Skill = Backbone.Model.extend({});
