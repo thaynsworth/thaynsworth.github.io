@@ -13,5 +13,5 @@ var Portfolio = Backbone.View.extend({
 	},
 	funTimez: function() {
 		console.log('we\'re funning!');
-	}
+	},
 });
