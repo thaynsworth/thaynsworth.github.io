@@ -1,4 +1,4 @@
-var portfolio = new Portfolio();
+var portfolio = new Portfolio({collection: projects});
 
 new WOW(
   { offset: 120 }
