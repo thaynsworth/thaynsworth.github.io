@@ -1,4 +1,4 @@
-var skills = Backbone.View.Extend({
+var Skills = Backbone.View.extend({
 	el: "#skills",
 	skillsTemplate: _.template($('#skills-template').html()),
 	initialize: function() {
