@@ -6,7 +6,7 @@ var apps = [
 	{
 		name: 'Project Share',
 		url: 'assets/img/projectshare1.png',
-		description: '<strong>ProjectShare</strong> was a group collaboration with three other classmates. It is a place for creators and professionals to start a project of their own and/or join other users on their project. Users can follow, comment and collaborate on other projects. <a href="http://104.131.217.121">Click here!</a>'
+		description: '<strong>ProjectShare</strong> was a group collaboration with three other classmates. It is a place for creators and professionals to start a project of their own and/or join other users on their project. Users can follow, comment and collaborate on other projects. <button class="btn btn-primary" href="http://104.131.217.121">Click here!</button>'
 	},
 	{
 		name: 'RESTaurant',
