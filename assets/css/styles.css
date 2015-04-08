@@ -1,7 +1,31 @@
+body { 
+	padding-top: 70px; 
+}
+
+nav {
+	background-color: black;
+}
+
+#load-screen {
+	background-color: lightgrey;
+	height: 500px;
+	width: 100%;
+}
+
 .project-description {
 	padding-bottom: 40px;
 }
 
-#projects {
+#projects img:hover {
+	opacity: .5;
+}
 
+#portfolio {
+	background-color: yellow;
+	border: 2px solid black;
+	width: 100%;
+}
+
+nav {
+	position: fixed;
 }
