@@ -9,11 +9,11 @@ var skillList = [
 	},
 	{
 		name: "Frameworks/Architectures:",
-		description: "Rails, jQuery, Backbone.js, AJAX, JSON, MVC, CRUD, RESTful"
+		description: "Rails, jQuery, Backbone.js, Node.js, Express.js, AJAX, JSON, MVC, CRUD, RESTful"
 	},
 	{
 		name: "Database Tools:",
-		description: "SQL, PostgreSQL, ActiveRecord, BCrypt"
+		description: "SQL, PostgreSQL, MongoDB, ActiveRecord, BCrypt"
 	},
 	{
 		name: "Styling/Design:",

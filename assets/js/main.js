@@ -4,3 +4,4 @@ var skills = new Skills({collection: skills});
 new WOW(
   { offset: 150 }
 ).init();
+

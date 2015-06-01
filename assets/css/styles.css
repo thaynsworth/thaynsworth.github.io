@@ -1,15 +1,26 @@
+
+
 body { 
-	padding-top: 70px; 
-}
-
-nav {
-	background-color: black;
-}
-
-#load-screen {
+	/*padding-top: 70px; */
 	background-color: lightgrey;
-	height: 500px;
-	width: 100%;
+}
+
+#navigation a {
+	background-color: lightgrey;
+}
+
+#navigation ul {
+	list-style-type: none;
+
+}
+
+#navigation li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+#navigation span {
+	background-color: black;
 }
 
 .project-description {
@@ -26,6 +37,3 @@ nav {
 	width: 100%;
 }
 
-nav {
-	position: fixed;
-}
