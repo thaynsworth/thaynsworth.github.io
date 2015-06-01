@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/lib/bootstrap-theme.css">
   <link rel="stylesheet" href="assets/css/lib/animate.css">
   <link rel="stylesheet" href="assets/css/lib/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
@@ -37,16 +38,16 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <div class="container" id="about">
+<!--   <div class="container" id="about">
     <div class="row">
 
       <div class="col-xs-12 col-sm-12 col-md-12 page-header text-center">
         <h1>Me</h1>
       </div>
-      <div class="col-xs-10 col-sm-8 col-md-8 text-center">
+      <div class="col-xs-10 col-sm-8 col-md-8 col-md-offset-1 text-center">
          <p class="lead">
            
-          <!-- ABOUT -->
+      
 
          </p>
       </div>
@@ -61,46 +62,74 @@
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 text-center" id="skills-list">
-          <!-- SKILLS -->
+      
         </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        
+        <div class="content">
+          <div class="grid">
+            <figure class="effect-duke">
+              <img src="assets/img/projectshare3.png" alt="projectshare"/>
+              <figcaption>
+                <h2>ProjectShare</h2>
+                <p>Thomas was born and raised in New Jersey, went to college in Vermont, and then moved to Charleston, SC to start his career in Hospitality.</p>
+                <a href="http://google.com"></a>
+              </figcaption>     
+            </figure>
+            <figure class="effect-duke">
+              <img src="assets/img/walksafe2.png" alt="img33"/>
+              <figcaption>
+                
+                <p>Steve was afraid of the Boogieman.</p>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="effect-duke">
+              <img src="assets/img/tester.png" alt="img33"/>
+              <figcaption>
+                
+                <p>Steve was afraid of the Boogieman.</p>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="effect-duke">
+              <img src="assets/img/joan-haynsworth-art.png" alt="img33"/>
+              <figcaption>
+                
+                <p>Steve was afraid of the Boogieman.</p>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 
 
-  <div class"container" id="portfolio">
+<!--   <div class"container" id="portfolio">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+      <div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1 text-center">
           <h1>Projects</h1>
       </div>
       
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 text-center" id="projects">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1 text-center" id="projects">
         
-        <!-- PROJECTS -->
+       
       
         </div>
       </div>  
     </div>
-  </div>
-
-  <script type="text/template">
-  
-  $(function() {
-      var mainBottom = $('#load-screen').offset().top + $('#load-screen').height(),
-          skillBottom = $('#skills').offset().top + $('#skills').height(),
-          loadBottom = $('#load-screen').offset().top + $('#load-screen').height(),
-          stop = Math.round($(window).scrollTop());
-
-    $(window).scroll(function() {
-      if ($(this).scrollTop() < 1) {
-        $("#navigation").addClass("navbar navbar-default navbar-fixed-top");
-      } else {
-        $("#navigation").removeClass("navbar navbar-default navbar-fixed-top");
-      }
-    });   
-  });  
-  </script>
+  </div> -->
 
   <script type="text/template" id="skills-template">
     <div class="col-xs-12 col-sm-12 col-md-12"
@@ -109,10 +138,14 @@
   </script>
 
   <script type="text/template" id="project-template">
-    <div class="col-xs-12 col-sm-6 col-md-6 wow fadeInDown">
+    <div class="col-xs-12 col-sm-4 col-md-4">
       <img class="img-responsive" src="<%= url %>">
       <p><strong><%= name %></strong><%= description %></p>
     </div>
+  </script>
+
+  <script type="text/template" id="project-template">
+    
   </script>
 
   <script src="assets/js/lib/jquery.js"></script>
