@@ -1,3 +1,21 @@
+.content {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.content > h2 {
+	clear: both;
+	margin: 0;
+	padding: 4em 1% 0;
+	color: #484B54;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+.content > h2:first-child {
+	padding-top: 0em;
+}
+
 .grid {
 	position: relative;
 	clear: both;
@@ -35,7 +53,7 @@
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -66,7 +84,7 @@
 }
 
 .grid figure h2 {
-	word-spacing: -0.15em;
+	word-spacing: -0.1em;
 	font-weight: 300;
 }
 
@@ -84,33 +102,34 @@
 	font-size: 68.5%;
 }
 
-.grid figure p span {
-	border: 1px solid white;
+.grid figure span {
+	/*border: 1px solid white;*/
+	/*text-decoration: underline;*/
 	padding: 8px;
 }
 
 /*---------------*/
-/***** Duke *****/
+/**** Projects ***/
 /*---------------*/
 
-figure.effect-duke {
+figure.effect-project {
 	background: -webkit-linear-gradient(-45deg, #5A9954 0%,#1C261B 100%);
 	background: linear-gradient(-45deg, #5A9954 0%,#1C261B 100%);
 }
 
-figure.effect-duke img,
-figure.effect-duke p {
+figure.effect-project img,
+figure.effect-project p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-duke:hover img {
+figure.effect-project:hover img {
 	opacity: 0.1;
 	-webkit-transform: scale3d(2,2,1);
 	transform: scale3d(2,2,1);
 }
 
-figure.effect-duke h2 {
+figure.effect-project h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: scale3d(0.8,0.8,1);
@@ -121,7 +140,7 @@ figure.effect-duke h2 {
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
-figure.effect-duke p {
+figure.effect-project p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -137,8 +156,8 @@ figure.effect-duke p {
 	transform-origin: 50% -100%;
 }
 
-figure.effect-duke:hover h2,
-figure.effect-duke:hover p {
+figure.effect-project:hover h2,
+figure.effect-project:hover p {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
