@@ -84,6 +84,11 @@
 	font-size: 68.5%;
 }
 
+.grid figure p span {
+	border: 1px solid white;
+	padding: 8px;
+}
+
 /*---------------*/
 /***** Duke *****/
 /*---------------*/

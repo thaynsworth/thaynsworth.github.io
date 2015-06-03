@@ -3,25 +3,30 @@ var Projects = Backbone.Collection.extend({
 });
 
 var apps = [
+
 	{
-		name: 'RESTaurant',
-		url: 'assets/img/restaurant1.png',
-		description: ' is a restaurant Point of Sales system for servers and managers to create and update the menu, add parties, enter orders and visualize receipts.'
-	},		
-	{
-		name: 'Walksafe',
+		name: 'WalkSafe',
 		url: 'assets/img/walksafe2.png',
-		description: ' provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.'
+		description: 'WalkSafe provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.',
+		stack: 'Rails/PostgreSQL/GeoJSON/MapBox/Javascript/HTML5/CSS3'
 	},
 	{
-		name: 'Project Share',
+		name: 'ProjectShare',
 		url: 'assets/img/projectshare3.png',
-		description: ' was a group collaboration with three other classmates. It is a place for creators and professionals to start a project of their own and/or join other users on their project. Users can follow, comment and collaborate on other projects.'
+		description: 'ProjectShare was a group collaboration with three other developers. It is a place for creators and professionals to start a project of their own and/or join other users on their project. Users can follow, comment, and collaborate on other projects.',
+		stack: 'Rails/PostgreSQL/Bootstrap/HTML5/CSS3'
 	},	
 	{
 		name: 'Joan Haynsworth Art',
 		url: 'assets/img/joan-haynsworth-art.png',
-		description: ' is where Joan haynsworth sells and displays all of her art creations.'
+		description: 'Joan Haynsworth\'s professional art gallery, consisting of oil, pastel, and digital creations.',
+		stack: 'Rails/PostgreSQL/Javascript/HTML5/CSS3/Paperclip/Skeleton'
+	},
+	{
+		name: 'The Erik Hendricks Memorial Foundation',
+		url: 'assets/img/coming_soon2.png',
+		description: 'The Erik Hendricks Memorial Foundation raises money for Hairy Cell Leukemia.',
+		stack: 'Rails/PostgreSQL/Bootstrap/HTML5/CSS3'
 	}
 
 ];
