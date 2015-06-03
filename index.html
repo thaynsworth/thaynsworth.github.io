@@ -68,68 +68,19 @@
     </div>
   </div> -->
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="portfolio">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        
         <div class="content">
-          <div class="grid">
-            <figure class="effect-duke">
-              <img src="assets/img/projectshare3.png" alt="projectshare"/>
-              <figcaption>
-                <h2>ProjectShare</h2>
-                <p>Thomas was born and raised in New Jersey, went to college in Vermont, and then moved to Charleston, SC to start his career in Hospitality.</p>
-                <a href="http://google.com"></a>
-              </figcaption>     
-            </figure>
-            <figure class="effect-duke">
-              <img src="assets/img/walksafe2.png" alt="img33"/>
-              <figcaption>
-                
-                <p>Steve was afraid of the Boogieman.</p>
-                <a href="#">View more</a>
-              </figcaption>     
-            </figure>
-            <figure class="effect-duke">
-              <img src="assets/img/tester.png" alt="img33"/>
-              <figcaption>
-                
-                <p>Steve was afraid of the Boogieman.</p>
-                <a href="#">View more</a>
-              </figcaption>     
-            </figure>
-            <figure class="effect-duke">
-              <img src="assets/img/joan-haynsworth-art.png" alt="img33"/>
-              <figcaption>
-                
-                <p>Steve was afraid of the Boogieman.</p>
-                <a href="#">View more</a>
-              </figcaption>     
-            </figure>
+          <div class="grid" id="projects">
+
+              <!-- Projects -->
 
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
-
-<!--   <div class"container" id="portfolio">
-    <div class="row">
-      <div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1 text-center">
-          <h1>Projects</h1>
-      </div>
-      
-      <div class="row">
-        <div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1 text-center" id="projects">
-        
-       
-      
-        </div>
-      </div>  
-    </div>
-  </div> -->
 
   <script type="text/template" id="skills-template">
     <div class="col-xs-12 col-sm-12 col-md-12"
@@ -138,14 +89,13 @@
   </script>
 
   <script type="text/template" id="project-template">
-    <div class="col-xs-12 col-sm-4 col-md-4">
-      <img class="img-responsive" src="<%= url %>">
-      <p><strong><%= name %></strong><%= description %></p>
-    </div>
-  </script>
-
-  <script type="text/template" id="project-template">
-    
+    <figure class="effect-duke">
+      <img class="img-responsive" src="<%= url %>"/>
+      <figcaption>
+        <h2><%= name %></h2>
+        <p><%= description %></p>
+      </figcaption>
+    </figure>  
   </script>
 
   <script src="assets/js/lib/jquery.js"></script>
