@@ -30,3 +30,8 @@ a {
 a:hover, a:focus {
 	color: #528cb3;
 }
+
+.testing-things {
+	font-family: "ostrich";
+	font-size: 40px;
+}

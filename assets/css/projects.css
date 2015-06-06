@@ -1,4 +1,7 @@
 
+#portfolio {
+	padding-top: 200px;
+}
 
 .content {
 	margin: 0 auto;
@@ -42,6 +45,8 @@
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+	/*border: 1px solid white;*/
+	box-shadow: 3px 3px 3px #171717;
 }
 
 .grid figure img {
