@@ -61,5 +61,19 @@ header {
 
 }
 
+#top-nav {
+
+}
+
+#top-nav li {
+	list-style-type: none;
+	padding: 5px;
+	font-size: 15px;
+}
+
+#top-nav a {
+	text-decoration: none;
+}
+
 
 

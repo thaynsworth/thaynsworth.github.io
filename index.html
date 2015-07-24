@@ -11,12 +11,15 @@
   <link rel="stylesheet" href="assets/css/lib/animate.css">
   <link rel="stylesheet" href="assets/css/lib/font-awesome.css">
   <link rel="stylesheet" href="assets/css/lib/fonts.css">
-  <link rel="stylesheet" href="assets/css/lib/lightbox.css">  
+  <link rel="stylesheet" href="assets/css/lib/lightbox.css">
+  <link rel="stylesheet" href="assets/css/lib/devicon.css">  
+  <link rel="stylesheet" href="assets/css/lib/devicon-colors.css">
   <link rel="stylesheet" type="text/css" href="assets/css/lib/normalize.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/lib/demo.css" />
   <link rel="stylesheet" href="assets/css/projects.css">
   <link rel="stylesheet" type="text/css" href="assets/css/effect2.css" />
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
   <script src="assets/js/lib/modernizr.custom.js"></script>
 </head>
 <body>
@@ -49,7 +52,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul id="top-nav" class="nav navbar-nav">
+              <ul id="top-nav">
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">PROJECTS</a></li>
                 <li><a href="#">CONTACT</a></li>
@@ -59,7 +62,6 @@
         </div>
       </div><!-- /.container-fluid -->
     </nav>
-
 
 <!--   <div class="container" id="about">
     <div class="row">
@@ -80,7 +82,7 @@
     <div class="container-fluid" id="portfolio">
       <h1>Portfolio</h1>
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
           <div id="projects">
             <div class="row">
 
@@ -90,7 +92,8 @@
       </div>
     </div>
 
-    <div class="container" id="skills">
+
+<!--     <div class="container" id="skills">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h1>About</h1>
@@ -107,7 +110,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div> <!-- ip-container -->
 
@@ -125,7 +128,7 @@
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-xs-12 col-sm-4 col-md-4">
-                    <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img style="height:50%;width:50%;" src="<%= url %>" alt=""></a>
+                    <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img style="height:100%;width:100%;" src="<%= url %>" alt=""></a>
                   </div>
                   <div class="col-xs-12 col-sm-8 col-md-8">
                     <p><%= description %></p>
