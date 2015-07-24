@@ -116,8 +116,8 @@
 
   <script type="text/template" id="project-template">
     <div class="col-xs-12 col-sm-12 col-md-4">
-      <img style="height:100%;width:100%;" src="<%= url %>" data-toggle="modal" data-target=".<%= target %>">
-      <div style="color:black;" class="modal <%= target %>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <img src="<%= url %>" data-toggle="modal" data-target=".<%= target %>">
+      <div class="modal <%= target %>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header text-center">
@@ -128,7 +128,7 @@
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-xs-12 col-sm-4 col-md-4">
-                    <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img style="height:100%;width:100%;" src="<%= url %>" alt=""></a>
+                    <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img src="<%= url %>" alt=""></a>
                   </div>
                   <div class="col-xs-12 col-sm-8 col-md-8">
                     <p><%= description %></p>
