@@ -21,8 +21,8 @@
 <body>
 
   <div id="ip-container" class="ip-container">
+    
     <header class="ip-header">
-
         <div class="ip-loader">
           <svg class="ip-inner" width="200px" height="200px" viewBox="0 0 80 80">
             <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
@@ -50,15 +50,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+              <a href=""><img src="assets/img/tbh-logo-verynew.png" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul id="top-nav" class="nav navbar-nav">
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href=""><img src="assets/img/tbh-logo-verynew.png" alt=""></a></li>
-        
                 <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -87,7 +86,7 @@
     <div class="container-fluid" id="portfolio">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-          <div>
+          <div class="row">
             <div id="projects">
 
                 <!-- Projects -->
@@ -120,20 +119,22 @@
   </div> <!-- ip-container -->
 
   <script type="text/template" id="skills-template">
-    <div class="col-xs-12 col-sm-12 col-md-12"
+    <div class="col-xs-12 col-sm-12 col-md-12">
       <p><strong><%= name %></strong><%= description %></p>
     </div>
   </script>
 
   <script type="text/template" id="project-template">
-    <figure>
-      <img class="img-responsive" src="<%= url %>"/>
-      <figcaption>
-        <h2><%= name %></h2>
-        <p><%= description %><span><%= stack %></span></p>
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <figure>
+        <img class="img-responsive" src="<%= url %>"/>
+        <figcaption>
+          <h2><%= name %></h2>
+          <p><%= description %><span><%= stack %></span></p>
 
-      </figcaption>
-    </figure>  
+        </figcaption>
+      </figure> 
+    </div> 
   </script>
 
   <script>

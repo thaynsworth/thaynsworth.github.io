@@ -45,12 +45,9 @@ header {
 }
 
 #main-nav {
-	padding: 10px;
-	min-height: 200px;
 	background: #2f3238;
 	transition: 0.5s;
-	max-height: 110px;
-	border: none;
+	border: 1px solid #2f3238;
 }
 
 #main-nav img {
