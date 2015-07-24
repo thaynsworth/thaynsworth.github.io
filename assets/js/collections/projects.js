@@ -24,7 +24,7 @@ var apps = [
 	},
 	{
 		name: 'The Erik Hendricks Memorial Foundation',
-		url: 'assets/img/coming_soon2.png',
+		url: 'assets/img/ehmf.png',
 		description: 'The Erik Hendricks Memorial Foundation raises money for Hairy Cell Leukemia.',
 		stack: '\nRails/PostgreSQL/Bootstrap/HTML5/CSS3'
 	}
