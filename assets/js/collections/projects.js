@@ -31,6 +31,13 @@ var apps = [
 		description: 'The Erik Hendricks Memorial Foundation raises money for Hairy Cell Leukemia.',
 		stack: '\nRails/PostgreSQL/Bootstrap/HTML5/CSS3',
 		target: 'ehmf-target'
+	},
+	{
+		name: 'MTI Integrated Business Development Inc.',
+		url: 'assets/img/coming_soon2.png',
+		description: 'A vocational rehabilitation services provider, serving more than 100 Veterans annually.',
+		stack: '\nWordPress/PHP/HTML5/CSS3',
+		target: 'mti-target'
 	}
 
 ];
