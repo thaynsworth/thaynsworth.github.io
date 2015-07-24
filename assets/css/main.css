@@ -30,7 +30,8 @@ body {
 
 a {
 	outline: none;
-	color: #3498db;
+	/*color: #3498db;*/
+	color: white;
 	background-color: #2f3238;
 	text-decoration: none;
 }
@@ -49,6 +50,7 @@ header {
 	background: #2f3238;
 	transition: 0.5s;
 	max-height: 110px;
+	border: none;
 }
 
 #main-nav img {
@@ -70,4 +72,6 @@ header {
 	/*font-size: 16px;*/
 
 }
+
+
 
