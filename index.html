@@ -4,7 +4,7 @@
 
   <meta charset="utf-8">
   <title>Thomas Haynsworth</title>
-  <link rel="icon" type="image/jpg" href="assets/img/profile2.jpg">
+  <link rel="icon" type="image/png" href="assets/img/tbh-favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/lib/bootstrap.css">
   <link rel="stylesheet" href="assets/css/lib/bootstrap-theme.css">
@@ -24,20 +24,13 @@
   <div id="ip-container" class="ip-container">
     
     <header class="ip-header">
-        <div class="ip-loader">
-          <svg class="ip-inner" width="200px" height="200px" viewBox="0 0 80 80">
-            <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-            <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-          </svg>
-        </div>
-      </header>
-      
-      <!-- top bar -->
-<!--       <div id="top-nav" class="codrops-top clearfix">
-        <span class="right"><a class="" href=""><span>About</span></a></span>
-        <a href=""><img src="assets/img/tbh-logo2.png" alt=""></a>
-        <span class="right"><a class="" href=""><span>Projects</span></a></span>
-      </div>   --> 
+      <div class="ip-loader">
+        <svg class="ip-inner" width="200px" height="200px" viewBox="0 0 80 80">
+          <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+          <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+      </div>
+    </header> 
   
     <nav id="main-nav" class="navbar navbar-default">
       <div class="container-fluid">
@@ -83,43 +76,6 @@
       </div>
     </div>
   </div> -->
-<!-- Large modal -->
-    <img src="<%= url %>" data-toggle="modal" data-target=".<%= target %>">
-
-    
-
-<!--<img src="assets/img/tbh-logo.png" data-toggle="modal" data-target=".walksafe-target">
-
-    <div style="color:black;" class="modal walksafe-target" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header text-center">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="gridSystemModalLabel">WalkSafe</h4>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                  <a href="assets/img/walksafe2.png" data-lightbox="image1", data-title="walksafe"><img style="height:50%;width:50%;" src="assets/img/walksafe2.png" alt=""></a>
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-8">
-                  <p>WalkSafe provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.</p>
-                  <a class="btn btn-default" href="http://google.com" role="button">Visit Site</a>
-                  <h3>Tech Used</h3>
-                  <ul>
-                    <li>Git</li>
-                    <li>Git</li>
-                    <li>Git</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
 
     <div class="container-fluid" id="portfolio">
       <h1>Portfolio</h1>
@@ -155,42 +111,41 @@
 
   </div> <!-- ip-container -->
 
-  <script type="text/template" id="skills-template">
-    <div class="col-xs-12 col-sm-12 col-md-12">
-      <p><strong><%= name %></strong><%= description %></p>
-    </div>
-  </script>
-
   <script type="text/template" id="project-template">
     <div class="col-xs-12 col-sm-12 col-md-4">
       <img style="height:100%;width:100%;" src="<%= url %>" data-toggle="modal" data-target=".<%= target %>">
       <div style="color:black;" class="modal <%= target %>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header text-center">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="gridSystemModalLabel"><%= name %></h4>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                  <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img style="height:50%;width:50%;" src="<%= url %>" alt=""></a>
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-8">
-                  <p><%= description %></p>
-                  <a class="btn btn-default" href="http://google.com" role="button">Visit Site</a>
-                  <p><%= stack %></p>
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="gridSystemModalLabel"><%= name %></h4>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img style="height:50%;width:50%;" src="<%= url %>" alt=""></a>
+                  </div>
+                  <div class="col-xs-12 col-sm-8 col-md-8">
+                    <p><%= description %></p>
+                    <a class="btn btn-default" href="http://google.com" role="button">Visit Site</a>
+                    <p><%= stack %></p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div> 
   </script>
 
+  <script type="text/template" id="skills-template">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <p><strong><%= name %></strong><%= description %></p>
+    </div>
+  </script>
 
   <script src="assets/js/lib/jquery.js"></script>
   <script src="assets/js/lib/underscore.js"></script>
