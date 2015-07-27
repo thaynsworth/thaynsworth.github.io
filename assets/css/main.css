@@ -74,11 +74,16 @@ header {
 #top-nav a {
 	text-decoration: none;
 	color: white;
-
+	transition: 0.2s;
 }
 
 #top-nav span {
 	color: white;
+	font-size: 20px;
+}
+
+#top-nav a:hover {
+	color: #25B463;
 }
 
 
