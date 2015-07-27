@@ -62,17 +62,23 @@ header {
 }
 
 #top-nav {
-
+	padding-top: 18px;
 }
 
 #top-nav li {
 	list-style-type: none;
 	padding: 5px;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 #top-nav a {
 	text-decoration: none;
+	color: white;
+
+}
+
+#top-nav span {
+	color: white;
 }
 
 

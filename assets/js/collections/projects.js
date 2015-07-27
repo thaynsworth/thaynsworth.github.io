@@ -15,7 +15,7 @@ var apps = [
 		name: 'ProjectShare',
 		url: 'assets/img/projectshare3.png',
 		description: 'ProjectShare was a group collaboration with three other developers. It is a place for creators and professionals to start a project of their own and/or join other users on their project. Users can follow, comment, and collaborate on other projects.',
-		stack: '\nRails/PostgreSQL/Bootstrap/HTML5/CSS3',
+		stack: 'This is a test',
 		target: 'projectshare-target'
 	},	
 	{
