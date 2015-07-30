@@ -134,7 +134,9 @@
                     <p><%= description %></p>
                     <a class="btn btn-default" href="http://google.com" role="button">Visit Site</a>
                     <ul>
-                      <li><i class="<%= stack %>"></i></li>
+                      <% _.each(stack, function(icon) { %>
+                      <li><i class="<%= icon %>"></i></li>
+                      <% }); %>
                     </ul>
                   </div>
                 </div>
