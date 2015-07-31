@@ -130,14 +130,16 @@
                   <div class="col-xs-12 col-sm-4 col-md-4">
                     <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img src="<%= url %>" alt=""></a>
                   </div>
-                  <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="col-xs-12 col-sm-6 col-md-6 text-center">
                     <p><%= description %></p>
-                    <h5>Technology</h5>
-                    <ul>
-                      <% _.each(stack, function(icon) { %>
-                      <li><i class="<%= icon %>"></i></li>
-                      <% }); %>
-                    </ul>
+                    <div id="tech-stack" class="well">
+                      <h5>Technology</h5>
+                      <ul>
+                        <% _.each(stack, function(icon) { %>
+                        <li><i class="<%= icon %>"></i></li>
+                        <% }); %>
+                      </ul>
+                    </div>
                   </div> 
                   <div class="col-xs-12 col-sm-2 col-md-2">
                     <ul>
