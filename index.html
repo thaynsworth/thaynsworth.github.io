@@ -130,31 +130,27 @@
                   <div class="col-xs-12 col-sm-4 col-md-4">
                     <a href="<%= url %>" data-lightbox="image1", data-title="<%= name %>"><img src="<%= url %>" alt=""></a>
                   </div>
-                  <div class="col-xs-12 col-sm-8 col-md-8">
+                  <div class="col-xs-12 col-sm-6 col-md-6">
                     <p><%= description %></p>
                     <h5>Technology</h5>
                     <ul>
-                      <li>
-                        <ul>
-                          <% _.each(stack, function(icon) { %>
-                          <li><i class="<%= icon %>"></i></li>
-                          <% }); %>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <% if (site === null) { %>
-                            <li></li>
-                          <% } else { %>
-                            <li><a class="btn btn-default" href="<%= site %>" role="button">Visit Site</a></li>
-                          <% } %>
-                          <% if (github === null) { %>
-                            <li></li>
-                          <% } else { %>
-                            <li><a class="btn btn-default" href="<%= github %>" role="button">Github</a></li>
-                          <% } %>
-                        </ul>
-                      </li>
+                      <% _.each(stack, function(icon) { %>
+                      <li><i class="<%= icon %>"></i></li>
+                      <% }); %>
+                    </ul>
+                  </div> 
+                  <div class="col-xs-12 col-sm-2 col-md-2">
+                    <ul>
+                      <% if (site === null) { %>
+                        <li></li>
+                      <% } else { %>
+                        <li><a class="btn btn-default" href="<%= site %>" role="button">Visit Site</a></li>
+                      <% } %>
+                      <% if (github === null) { %>
+                        <li></li>
+                      <% } else { %>
+                        <li><a class="btn btn-default" href="<%= github %>" role="button">Github</a></li>
+                      <% } %>
                     </ul>
                   </div>
                 </div>
