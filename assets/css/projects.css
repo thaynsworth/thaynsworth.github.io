@@ -13,5 +13,15 @@
 	cursor: pointer;
 }
 
+.modal-body ul {
+	list-style-type: none;
+}
 
+.modal-body li {
+	display: inline;
+}
+
+.modal-body i {
+	font-size: 4em;
+}
 
