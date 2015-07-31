@@ -141,17 +141,17 @@
                       </ul>
                     </div>
                   </div> 
-                  <div class="col-xs-12 col-sm-2 col-md-2">
+                  <div id="project-links" class="col-xs-12 col-sm-2 col-md-2 text-center">
                     <ul>
                       <% if (site === null) { %>
                         <li></li>
                       <% } else { %>
-                        <li><a class="btn btn-default" href="<%= site %>" role="button">Visit Site</a></li>
+                        <li><a href="<%= site %>" role="button">Visit Site</a></li>
                       <% } %>
                       <% if (github === null) { %>
                         <li></li>
                       <% } else { %>
-                        <li><a class="btn btn-default" href="<%= github %>" role="button">Github</a></li>
+                        <li><a href="<%= github %>" role="button">View Code</a></li>
                       <% } %>
                     </ul>
                   </div>
