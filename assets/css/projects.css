@@ -19,6 +19,7 @@
 
 .modal-body li {
 	display: inline;
+	/*padding: 1em;*/
 }
 
 .modal-body i {

@@ -82,7 +82,7 @@
     <div class="container-fluid" id="portfolio">
       <h1>Portfolio</h1>
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
           <div id="projects">
             <div class="row">
 
@@ -132,12 +132,29 @@
                   </div>
                   <div class="col-xs-12 col-sm-8 col-md-8">
                     <p><%= description %></p>
-                    <a class="btn btn-default" href="http://google.com" role="button">Visit Site</a>
-                    <h3>Technology</h3>
+                    <h5>Technology</h5>
                     <ul>
-                      <% _.each(stack, function(icon) { %>
-                      <li><i class="<%= icon %>"></i></li>
-                      <% }); %>
+                      <li>
+                        <ul>
+                          <% _.each(stack, function(icon) { %>
+                          <li><i class="<%= icon %>"></i></li>
+                          <% }); %>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <% if (site === null) { %>
+                            <li></li>
+                          <% } else { %>
+                            <li><a class="btn btn-default" href="<%= site %>" role="button">Visit Site</a></li>
+                          <% } %>
+                          <% if (github === null) { %>
+                            <li></li>
+                          <% } else { %>
+                            <li><a class="btn btn-default" href="<%= github %>" role="button">Visit Site</a></li>
+                          <% } %>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
                 </div>
