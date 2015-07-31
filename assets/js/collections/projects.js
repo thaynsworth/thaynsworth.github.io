@@ -10,7 +10,7 @@ var apps = [
 		description: 'WalkSafe provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.\n',
 		stack: ["devicon-ruby-plain colored", "devicon-javascript-plain colored", "devicon-jquery-plain colored", "devicon-html5-plain colored", "devicon-css3-plain colored"], 
 		target: 'walksafe-target',
-		site: 'http://www.google.com',
+		site: null,
 		github: 'https://github.com/thaynsworth/final_project'
 	},
 	{
@@ -19,8 +19,8 @@ var apps = [
 		description: 'ProjectShare was a group collaboration with three other developers. It is a place for creators and professionals to start a project of their own and/or join other users on their project. Users can follow, comment, and collaborate on other projects.',
 		stack: ["devicon-rails-plain colored", "devicon-html5-plain colored", "devicon-css3-plain colored"],
 		target: 'projectshare-target',
-		site: 'http://www.google.com',
-		github: 'https://github.com/thaynsworth/final_project'
+		site: 'http://104.131.217.121/',
+		github: 'https://github.com/thaynsworth/Gnarwhales'
 	},	
 	{
 		name: 'Joan Haynsworth Art',
@@ -28,8 +28,8 @@ var apps = [
 		description: 'Joan Haynsworth\'s professional art gallery, consisting of oil, pastel, and digital creations.',
 		stack: ["devicon-rails-plain colored", "devicon-html5-plain colored", "devicon-css3-plain colored"],
 		target: 'joan-target',
-		site: 'http://www.google.com',
-		github: 'https://github.com/thaynsworth/final_project'
+		site: 'http://www.joanhaynsworthart.com',
+		github: 'https://github.com/thaynsworth/JoanOfArt'
 	},
 	{
 		name: 'The Erik Hendricks Memorial Foundation',
@@ -37,8 +37,8 @@ var apps = [
 		description: 'The Erik Hendricks Memorial Foundation raises money for Hairy Cell Leukemia.',
 		stack: ["devicon-rails-plain colored", "devicon-html5-plain colored", "devicon-css3-plain colored"],
 		target: 'ehmf-target',
-		site: 'http://www.google.com',
-		github: 'https://github.com/thaynsworth/final_project'
+		site: 'http://www.theerikhendricksmemorialfoundation.com',
+		github: 'https://github.com/thaynsworth/erik-hendricks-foundation'
 	},
 	{
 		name: 'MTI Integrated Business Development Inc.',
