@@ -7,7 +7,7 @@ var apps = [
 	{
 		name: 'WalkSafe',
 		url: 'assets/img/walksafe2.png',
-		description: 'WalkSafe provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.\n',
+		description: 'WalkSafe provides a visualization of crime within the 5 boroughs of New York City. Users can create an account, then use the map to inform themselves of the safest streets or neighborhoods.',
 		stack: ["devicon-ruby-plain-wordmark colored", "devicon-javascript-plain colored", "devicon-jquery-plain-wordmark colored", "devicon-html5-plain-wordmark colored", "devicon-css3-plain-wordmark colored", "devicon-postgresql-plain-wordmark colored"], 
 		target: 'walksafe-target',
 		site: null,
