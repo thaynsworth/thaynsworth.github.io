@@ -8,7 +8,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 label {
@@ -25,6 +25,7 @@ label:focus {
   background: #fff;
   width: 240px;
   height: 100%;
+  opacity: 0.9;
   transform: translate3d(-240px, 0, 0);
   transition: transform 0.35s;
 }
@@ -80,6 +81,8 @@ label:focus {
   padding-top: 5%;
   color: #fff;
   font-size: 12px;
+  border-top: 2px solid white;
+  min-height: 100%;
 }
 #info #info-content h1 {
   color: #fff;

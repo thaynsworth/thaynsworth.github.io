@@ -33,15 +33,10 @@ body {
 	font-size: 1em;
 	font-family: 'Raleway', Arial, sans-serif;
 	padding-top: 200px;
-	overflow: hidden;
 }
 
 header {
 	position: fixed;
-}
-
-footer {
-	padding-top: 10px;
 }
 
 /*#main-nav {
