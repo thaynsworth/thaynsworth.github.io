@@ -28,30 +28,21 @@ body {
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
-#main-nav a {
-	outline: none;
-	/*color: #3498db;*/
-	color: white;
-	background-color: #2f3238;
-	text-decoration: none;
-}
-
-#main-nav a:hover, a:focus {
-	color: #528cb3;
-}
-
 header {
 	position: fixed;
 }
 
 #main-nav {
 	background: #2f3238;
-	transition: 0.5s;
-	border: 1px solid #2f3238;
+}
+
+.navbar-default {
+	border: none !important;
+	box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 #main-nav img {
-	transition: 0.5s;
 	height: 50%;
 	width: 50%;
 }
@@ -67,6 +58,7 @@ header {
 
 #top-nav li {
 	list-style-type: none;
+	display: inline;
 	padding: 5px;
 	font-size: 18px;
 }
@@ -75,11 +67,6 @@ header {
 	text-decoration: none;
 	color: white;
 	transition: 0.2s;
-}
-
-#top-nav span {
-	color: white;
-	font-size: 20px;
 }
 
 #top-nav a:hover {

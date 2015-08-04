@@ -1,5 +1,6 @@
 var portfolio = new Portfolio({collection: projects});
 var skills = new Skills({collection: skills});
+var about = new About({collection: about});
 
 new WOW(
   { offset: 150 }
