@@ -20,19 +20,28 @@
 .clearfix:before, .clearfix:after { display: table; content: ''; }
 .clearfix:after { clear: both; }
 
+html, body {
+  height: 100%;
+}
+
 body {
 	background: #2f3238;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Raleway', Arial, sans-serif;
+	padding-top: 200px;
 }
 
 header {
 	position: fixed;
 }
 
-#main-nav {
+footer {
+	padding-top: 60px;
+}
+
+/*#main-nav {
 	background: #2f3238;
 }
 
@@ -45,14 +54,9 @@ header {
 #main-nav img {
 	height: 50%;
 	width: 50%;
-}
+}*/
 
-#main-nav a {
-	/*font-size: 16px;*/
-
-}
-
-#top-nav {
+/*#top-nav {
 	padding-top: 18px;
 }
 
@@ -71,9 +75,10 @@ header {
 
 #top-nav a:hover {
 	color: #25B463;
-}
+}*/
 
-@media (min-width: 768px) and (max-width: 1600px) {
+
+/*@media (min-width: 768px) and (max-width: 1600px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
@@ -86,7 +91,7 @@ header {
     .navbar-header {
         float:none;
     }
-}
+}*/
 
 
 
