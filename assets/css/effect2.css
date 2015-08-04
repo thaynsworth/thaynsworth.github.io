@@ -23,10 +23,10 @@
 	position: fixed;
 	top: 0;
 	z-index: 100;
-	min-height: 500px;
+	min-height: 460px;
 	width: 100%;
 	height: 100%;
-	background: #A8A8A8;
+	background: #f1f1f1;
 }
 
 .ip-header h1 {
@@ -48,10 +48,6 @@
 	height: 100%;
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
-	opacity: 1;
-	transition: .25s;
-	-moz-transition: .25s;
-	-webkit-transition: .25s;
 }
 
 .ip-loader {
@@ -70,7 +66,7 @@
 }
 
 .loaded .ip-header .ip-logo svg {
-	max-height: 400px;
+	max-height: 300px;
 }
 
 .ip-header .ip-logo svg path {
@@ -205,7 +201,7 @@
 /* Header elements when loading finishes */
 .loaded .ip-logo,
 .loaded .ip-loader {
-	opacity: 0;
+	opacity: 1;
 }
 
 .loaded .ip-logo {
@@ -213,7 +209,6 @@
 	transform-origin: 50% 0;
 	-webkit-animation: animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards;
 	animation: animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards;
-
 }
 
 @-webkit-keyframes animLoadedLogo {

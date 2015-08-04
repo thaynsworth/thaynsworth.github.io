@@ -25,22 +25,30 @@
 </head>
 <body>
 
-  <div id="ip-container" class="ip-container">
-    
-    <header class="ip-header">
-      <div class="ip-loader">
-        <svg class="ip-inner" width="200px" height="200px" viewBox="0 0 80 80">
-          <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-          <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+<div id="ip-container" class="ip-container">
+      <!-- initial header -->
+      <header class="ip-header">
+        <h1 class="ip-logo">
+        <svg class="ip-inner" width="100%" height="100%" viewBox="0 0 300 160" preserveAspectRatio="xMidYMin meet" aria-labelledby="logo_title">
+        <image style="overflow:visible;" width="100%" height="100%" xlink:href="assets/img/tbh-logo-verynew.png">
+        </image>
         </svg>
-      </div>
-    </header> 
+
+        </h1>
+        <div class="ip-loader">
+          <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+            <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+            <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+          </svg>
+        </div>
+      </header>
+      <!-- top bar -->
   
     <nav id="main-nav" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-1">
-          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center">
+     
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -48,23 +56,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href=""><img src="assets/img/tbh-logo-verynew.png" alt=""></a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul id="top-nav">
                 <li><a href="#">PROJECTS</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
               </ul>
-            </div><!-- /.navbar-collapse -->
+            </div>
           </div>
         </div>
-      </div><!-- /.container-fluid -->
+      </div>
     </nav>
 
-  <div class="container-fluid" id="about">
+<!--   <div class="container-fluid" id="about">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
         <div id="about-info">
@@ -86,7 +92,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 <!--     <div class="container" id="skills">
@@ -108,7 +114,7 @@
       </div>
     </div> -->
 
-  </div> <!-- ip-container -->
+</div> <!-- ip-container -->
 
   <script type="text/template" id="project-template">
     <div class="col-xs-12 col-sm-12 col-md-4">
