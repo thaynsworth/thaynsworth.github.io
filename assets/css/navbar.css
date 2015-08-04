@@ -78,7 +78,7 @@ label:focus {
 }
 #info #info-content {
   display: table-cell;
-  padding-top: 5%;
+  padding-top: 3%;
   color: #fff;
   font-size: 12px;
   border-top: 2px solid white;
