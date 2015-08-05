@@ -45,16 +45,16 @@
 	font-size: 14px;
 }
 
-#project-links {
+.project-links {
 	padding-top: 3%;
 }
 
-#project-links ul {
+.project-links ul {
 	list-style-type: none;
 	padding-left: 0;
 }
 
-#project-links a {
+.project-links a {
 	text-decoration: none;
 	border: 2px solid #528cb3;
 	border-radius: 3px;
@@ -66,12 +66,12 @@
 	color: #528cb3;
 }
 
-#project-links a:hover {
+.project-links a:hover {
 	background: #528cb3;
 	color: white; 
 }
 
-#project-links li {
+.project-links li {
 	margin-bottom: 30px;
 }
 

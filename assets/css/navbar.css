@@ -25,6 +25,7 @@ label:focus {
   background: #fff;
   width: 240px;
   height: 100%;
+  z-index: 101;
   /*opacity: 0.9;*/
   transform: translate3d(-240px, 0, 0);
   transition: transform 0.35s;
@@ -80,7 +81,7 @@ label:focus {
   display: table-cell;
   padding-top: 2%;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   border-top: 3px solid white;
   min-height: 100%;
 }

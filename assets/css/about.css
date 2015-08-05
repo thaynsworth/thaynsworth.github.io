@@ -1,6 +1,35 @@
+.stack-section {
+	/*border: 2px solid white;*/
+	background: #4C4C4C;
+	padding: 10px;
+	border-radius: 5px;
+}
+
 #about-info img {
 	height: 100%;
 	width: 100%;
 	border: 3px solid black;
 	border-radius: 10px;
 }
+
+#about-info ul {
+	list-style-type: none;
+}
+
+#about-info li {
+	display: inline;
+}
+
+#about-info i {
+	font-size: 50px;
+}
+
+#about-info h4 {
+	background: white;
+	/*border: 1px solid white;*/
+	/*text-decoration: underline;*/
+	color: #4C4C4C;
+	border-radius: 3px;
+	padding: 5px;
+}
+

@@ -48,7 +48,7 @@
     <div id="info">
       <div id="info-content">
 
-          <div style="display:none;" class="container-fluid section-main" id="about">
+          <div class="container-fluid section-main" id="about">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <h2 class="section-header">ABOUT</h2>
@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <div class="container-fluid section-main" id="portfolio">
+          <div style="display:none;" class="container-fluid section-main" id="portfolio">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <h2 class="section-header">PROJECTS</h2>
@@ -170,7 +170,7 @@
 
 
   <script type="text/template" id="project-template">
-    <div class="col-xs-12 col-sm-12 col-md-4">
+    <div class="col-xs-12 col-sm-6 col-md-4">
       <img src="<%= url %>" data-toggle="modal" data-target=".<%= target %>">
       <div class="modal <%= target %>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg">
@@ -196,7 +196,7 @@
                       </ul>
                     </div>
                   </div> 
-                  <div id="project-links" class="col-xs-12 col-sm-12 col-md-2 text-center">
+                  <div class="project-links col-xs-12 col-sm-12 col-md-2 text-center">
                     <ul>
                       <% if (site === null) { %>
                         
@@ -226,14 +226,44 @@
   </script>
 
   <script type="text/template" id="about-template">
-    <div class="col-xs-12 col-sm-12 col-md-4">
+    <div class="col-xs-12 col-sm-12 col-md-3">
       <img src="<%= profileImage %>">
+      <div class="project-links">
+        <ul>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>    
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4">
       <p><%= workHistory %></p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4">
       <p><%= workHistory %></p>
+    </div>
+    <div class="stack-section col-xs-12 col-sm-12 col-md-5">
+      <h4>Languages</h4>
+      <ul>
+        <% _.each(languages, function(icon){ %>
+        <li><i class="<%= icon %>"></i></li>
+        <% }); %>
+      </ul>
+      <h4>Frameworks &amp; Architectures</h4>
+      <ul>
+        <% _.each(frameworks, function(icon){ %>
+        <li><i class="<%= icon %>"></i></li>
+        <% }); %>
+      </ul>
+      <h4>Styling &amp; Design</h4>
+      <ul>
+        <% _.each(design, function(icon){ %>
+        <li><i class="<%= icon %>"></i></li>
+        <% }); %>
+      </ul>
+      <h4>Database Tools</h4>
+      <ul>
+        <% _.each(database, function(icon){ %>
+        <li><i class="<%= icon %>"></i></li>
+        <% }); %>
+      </ul>
     </div>
   </script>
 
