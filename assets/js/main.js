@@ -6,6 +6,45 @@ new WOW(
   { offset: 150 }
 ).init();
 
+$(function(){
+
+  $("#nav-menu li").click(function(){
+    var el = $(this);  
+    updateSection(el)
+  })
+
+});
+
+  function emptySections() {
+    console.log("Sections empty");
+    $("#portfolio").hide();
+    $("#about").hide();
+    $("#contact").hide();
+  }
+
+  function updateSection(obj) {
+  	$( "label.menu-toggle" ).trigger( "click" );
+    emptySections();
+    var section = obj.attr('id');
+      if (section === 'portfolio') {
+        var portfolio = $('#portfolio');
+        portfolio.fadeIn(400, function(){
+          portfolio.show();
+        })
+      } else if (section === 'about') {
+        var about = $('#about');
+        about.fadeIn(400, function(){
+          about.show();
+        });
+        console.log('showing hcl history');   
+      } else if (section === 'contact') {
+        var contact = $('#contact');
+        contact.fadeIn(400, function(){
+          contact.show();
+        });    
+      }
+  }
+
 /**
  * main.js
  * http://www.codrops.com

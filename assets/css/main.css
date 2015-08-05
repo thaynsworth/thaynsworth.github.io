@@ -55,6 +55,40 @@ header {
 	padding-top: 150px;
 }
 
+.internal-links {
+	padding-top: 3%;
+}
+
+.internal-links ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.internal-links a {
+	text-decoration: none;
+	border: 2px solid #528cb3;
+	border-radius: 3px;
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+	font-size: 15px; 
+	transition: 0.1s;
+	color: #528cb3;
+}
+
+.internal-links a:hover {
+	background: #528cb3;
+	color: white; 
+}
+
+.internal-links li {
+	margin-bottom: 30px;
+}
+
+.display-none {
+	display: none;
+}
+
 /*#main-nav {
 	background: #2f3238;
 }
