@@ -224,16 +224,20 @@
 
   <script type="text/template" id="contact-template">
     <div class="col-xs-12 col-sm-12 col-md-12">
-      <p><%= description %><p>   
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
+          <p><%= description %><p> 
+        </div>
+      </div>  
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
           <ul>
             <% _.each(contactInfo, function(info){ %>
             <li><%= info %></li>
             <% }); %>
           </ul>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="col-xs-12 col-sm-12 col-md-5">
           <ul>
             <% _.each(socialInfo, function(info){ %>
             <li><%= info %></li>
