@@ -5,10 +5,10 @@ var About = Backbone.Collection.extend({
 var data = [
 
 {
-	name: 'Tom Haynsworth | Web Developer',
-	profileImage: 'assets/img/profile2.jpg',
-	techAbout: 'As a Full Stack Developer I enjoy all aspects of the development process. ',
-	workHistory: 'I’m a hotel management professional turned developer and have been coding/building for the last 11 months. My previous management experience has taught me the importance of communication, critical/innovative thinking, and good leadership. Combined with my technical coding skills and I know that I would be a great long-term asset to your company!',
+	name: "Tom Haynsworth | Web Developer",
+	profileImage: "assets/img/profile2.jpg",
+	techAbout: "As a Full Stack Developer I enjoy all aspects of the development process. From researching and designing through building and deployment. I'm constantly challenging myself to use new technologies and frameworks.",
+	workHistory: "I have 7+ years of management experience, leading a variety of departments in a large resort atmosphere. My previous roles involved communication, leadership, and critical/innovative thinking. Those are specific skills that I\'m bringing to the Tech industry",
 	languages: ["devicon-html5-plain-wordmark", "devicon-javascript-plain", "devicon-ruby-plain-wordmark"],
 	frameworks: ["devicon-rails-plain-wordmark", "devicon-jquery-plain-wordmark", "devicon-backbonejs-plain-wordmark", "devicon-nodejs-plain-wordmark", "devicon-wordpress-plain-wordmark", "devicon-git-plain-wordmark", "devicon-meteor-plain-wordmark"],
 	database: ["devicon-postgresql-plain-wordmark", "devicon-mongodb-plain-wordmark"],

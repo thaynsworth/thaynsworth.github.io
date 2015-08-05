@@ -2,6 +2,7 @@
 	/*border: 2px solid white;*/
 	background: #4C4C4C;
 	padding: 10px;
+	margin-top: 20px;
 	border-radius: 5px;
 }
 
@@ -12,8 +13,13 @@
 	border-radius: 10px;
 }
 
+#about-info p {
+	font-size: 18px;
+}
+
 #about-info ul {
 	list-style-type: none;
+	text-align: center;
 }
 
 #about-info li {
@@ -22,6 +28,7 @@
 
 #about-info i {
 	font-size: 50px;
+	padding: 4px;
 }
 
 #about-info h4 {
@@ -31,5 +38,6 @@
 	color: #4C4C4C;
 	border-radius: 3px;
 	padding: 5px;
+	text-align: center;
 }
 
