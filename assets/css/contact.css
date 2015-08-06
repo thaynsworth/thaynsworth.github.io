@@ -1,12 +1,9 @@
 
-.contact-section {
-	background: #4C4C4C;
-	padding: 10px;
-	border-radius: 5px;
-}
 
 #contact-info p {
 	padding-bottom: 20px;
+	font-size: 15px;
+	border-bottom: 2px solid white;
 }
 
 #contact-info span {
@@ -56,11 +53,16 @@
   text-decoration: underline;
 }
 
+/*.contact-section {
+	background: #4C4C4C;
+	padding: 10px;
+	border-radius: 5px;
+}
 .contact-box {
 	border: 2px solid white;
 	border-radius: 2px;
 	height: 100%;
-}
+}*/
 
 
 

@@ -5,7 +5,7 @@ var Contact = Backbone.Collection.extend({
 var data = [
 
 {
-	description: "I would love to hear from you! I'm available for large or small projects",
+	description: "I would love to hear from you! I'm available for Freelance projects, Full/Part-time work, consulting, or anything really! :)",
 	contactInfo: 
 	[
 	"<a href='mailto:thomas.haynsworth@gmail.com'><i class='fa fa-envelope-o fa-3x'></i><span>thomas.haynsworth@gmail.com</span></a>",

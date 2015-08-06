@@ -45,7 +45,10 @@
 	font-size: 14px;
 }
 
-
+#main-img img {
+	height: 100px;
+	width: auto;
+}
 
 
 
