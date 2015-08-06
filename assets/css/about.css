@@ -7,6 +7,33 @@
 	border-radius: 5px;
 }
 
+
+
+
+@media (min-width: 1130px) and (max-width: 1600px)  {
+	.stack {
+		border: 2px solid white;
+		border-radius: 2px;
+		height: 230px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1129px) {
+	.stack {
+		border: 2px solid white;
+		border-radius: 2px;
+		height: 300px;
+	}
+}
+
+@media  (max-width: 991px) {
+	.stack {
+		border: 2px solid white;
+		border-radius: 2px;
+		height: 100%;
+	}
+}
+
 #about-info img {
 	height: 90%;
 	width: 90%;
