@@ -55,3 +55,14 @@
 #contact-info a:active {
   text-decoration: underline;
 }
+
+.contact-box {
+	border: 2px solid white;
+	border-radius: 2px;
+	height: 100%;
+}
+
+
+
+
+

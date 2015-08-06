@@ -101,4 +101,7 @@ label:focus {
   font-size: 26px;
 }
 
+.menu {
+  position: fixed;
+}
   

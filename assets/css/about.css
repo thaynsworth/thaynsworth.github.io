@@ -7,8 +7,11 @@
 	border-radius: 5px;
 }
 
-
-
+.stack-section h3 {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
 
 @media (min-width: 1130px) and (max-width: 1600px)  {
 	.stack {
