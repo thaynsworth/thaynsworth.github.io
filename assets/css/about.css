@@ -55,11 +55,14 @@
 
 #about-info li {
 	display: inline;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 
 #about-info i {
 	font-size: 55px;
-	padding: 4px;
+	/*padding: 4px;*/
+	/*margin-bottom: 10px;*/
 }
 
 #about-info h4 {
