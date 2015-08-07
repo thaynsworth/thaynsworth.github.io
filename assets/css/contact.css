@@ -4,6 +4,13 @@
 	padding-bottom: 20px;
 	font-size: 15px;
 	border-bottom: 2px solid white;
+	background: white;
+	opacity: 0.9;
+}
+
+#contact-info h4 {
+	padding-bottom: 50px;
+	margin-top: 2px;
 }
 
 #contact-info span {
