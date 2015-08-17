@@ -31,7 +31,7 @@ label:focus {
   transition: transform 0.35s;
 }
 .menu label.menu-toggle {
-  position: absolute;
+  position: fixed;
   right: -60px;
   width: 60px;
   height: 60px;
