@@ -20,6 +20,7 @@ var data = [
 		"devicon-jquery-plain-wordmark", 
 		"devicon-backbonejs-plain-wordmark", 
 		"devicon-nodejs-plain-wordmark", 
+		"devicon-gulp-plain",
 		"devicon-wordpress-plain-wordmark", 
 		"devicon-git-plain-wordmark", 
 		"devicon-meteor-plain-wordmark"
@@ -30,7 +31,8 @@ var data = [
 	],
 	design: [
 		"devicon-css3-plain-wordmark", 
-		"devicon-bootstrap-plain-wordmark", 
+		"devicon-bootstrap-plain-wordmark",
+		"devicon-less-plain-wordmark", 
 		"devicon-sass-original", 
 		"devicon-photoshop-line"
 	]
