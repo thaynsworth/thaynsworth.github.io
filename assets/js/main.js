@@ -85,7 +85,8 @@ $(function(){
 		}
 		else {
 			onEndInitialAnimation();
-		}
+		};
+
 	}
 
 	function startLoading() {
@@ -133,3 +134,10 @@ $(function(){
 	init();
 
 })();
+
+$(window).resize(function() {
+  var height = $('.loaded .ip-header .ip-logo svg').height();
+  var padding = height;
+
+  $('.section-main').css({'paddingTop': padding});
+});
