@@ -109,7 +109,26 @@ var apps = [
 		target: 'mti-target',
 		site: null,
 		github: null
-	}
+	},
+	{
+		name: 'www.stevenresnick.com',
+		url: 'assets/img/resnick-law.png',
+		description: 'Steven Resnick, Attorney at Law. Built with Backbone, Underscore, ES2015, Gulp. Styled with Less and Bootstrap',
+		stack: [
+			"devicon-backbonejs-plain-wordmark colored", 
+			"devicon-javascript-plain colored", 
+			"devicon-jquery-plain-wordmark colored", 
+			"devicon-bootstrap-plain-wordmark colored", 
+			"devicon-html5-plain-wordmark colored", 
+			"devicon-css3-plain-wordmark colored",
+			"devicon-less-plain-wordmark colored",
+			"devicon-gulp-plain colored"
+		],
+		lightboxName: 'resnick',
+		target: 'resnick-target',
+		site: 'http://www.stevenresnick.com',
+		github: 'https://github.com/thaynsworth/resnick-family-law'
+	}	
 
 ];
 
