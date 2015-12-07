@@ -156,7 +156,7 @@ function queryCoreReportingApi(profileId) {
     var formattedJson = JSON.stringify(response.result, null, 2);
     document.getElementById('query-output').value = formattedJson;
     console.log('about to pull specific stuff');
-    var specificResponse = JSON.stringify(response.result.kind, null, 2);
+    var specificResponse = JSON.stringify(response.result.totalsForAllResults, null, 2);
     document.getElementById('specific-output').value = specificResponse;
   })
   .then(null, function(err) {
