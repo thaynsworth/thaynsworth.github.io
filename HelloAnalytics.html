@@ -27,11 +27,7 @@
 
 <script>
 
-gapi.analytics.createComponent('MyComponent', {
-  execute: function() {
-    alert('I have been executed!');
-  }
-});
+
 
 </script>
 
@@ -49,6 +45,11 @@ gapi.analytics.ready(function() {
     clientid: '27509203371-74dejmui5v0vllg7ep450dnv5o6iovkl.apps.googleusercontent.com'
   });
 
+  gapi.analytics.createComponent('MyComponent', {
+    execute: function() {
+      alert('I have been executed!');
+    }
+  });
 
   /**
    * Create a new ViewSelector instance to be rendered inside of an
