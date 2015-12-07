@@ -27,6 +27,16 @@
 
 <script>
 
+gapi.analytics.createComponent('MyComponent', {
+  execute: function() {
+    alert('I have been executed!');
+  }
+});
+
+</script>
+
+<script>
+
 gapi.analytics.ready(function() {
 
   /**
